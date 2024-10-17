@@ -8,6 +8,10 @@
   color: #0d0e0d;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   width: 100%;
   height: 300vh;
@@ -111,7 +115,7 @@ header {
   text-wrap: pretty;
   text-align: center;
   font-weight: 400;
-  font-size: 70px;
+  font-size: 52px;
   color: #01697d;
   z-index: 10;
 }
@@ -119,5 +123,70 @@ header {
 .main__title span {
   color: #dcfffe;
   font-weight: 300;
-  font-size: 140px;
+  font-size: 80px;
+}
+
+/* Footer */
+.footer__section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #01697d;
+}
+
+.footer__section--head {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px;
+}
+
+.footer--head--right {
+  display: flex;
+}
+
+.footer--about,
+.footer--contact,
+.footer--social {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.footer--about p,
+.footer--contact p,
+.footer--social p {
+  font-weight: 300;
+  margin-bottom: 12px;
+  font-size: 20px;
+  color: #dcfffe;
+}
+
+.footer--about a,
+.footer--contact a,
+.footer--social a {
+  margin-bottom: 2px;
+}
+
+.footer__section--logo {
+  height: 100px;
+}
+
+.footer__section--foot {
+  display: flex;
+  width: 100%;
+  padding: 24px;
+  border-top: solid 2px #13547a;
+  justify-content: space-between;
+}
+
+.footer--foot--left {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__section--foot a {
+  cursor: pointer;
+  color: #dcfffe;
+  font-size: 16px;
 }
