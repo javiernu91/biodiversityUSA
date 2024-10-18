@@ -4,8 +4,9 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  font-weight: 300;
-  color: #0d0e0d;
+  font-weight: 200;
+  letter-spacing: 0.025em;
+  color: #080808;
 }
 
 a {
@@ -14,6 +15,7 @@ a {
 
 body {
   width: 100%;
+  min-height: 100vh;
   /* height: 300vh; */
   background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
   background-repeat: no-repeat;
@@ -27,6 +29,7 @@ header {
   height: 60px;
   max-width: 1300px;
   margin: 0 auto;
+  z-index: 50;
 }
 
 .header__image {
@@ -37,6 +40,10 @@ header {
 .header__navbar {
   height: 100%;
   width: 50%;
+}
+
+.header__navbar {
+  color: #080808;
 }
 
 .header__navbar--right {
@@ -203,11 +210,37 @@ header {
 .bento__item p {
   color: #dcfffe;
   text-wrap: pretty;
+  line-height: 1.25rem;
 }
 
 .bento__item:hover {
   transform: scale(1.02);
   cursor: pointer;
+}
+
+/* About */
+.about__section--container {
+  display: flex;
+  width: 100%;
+  max-width: 1300px;
+  padding: 20px 0;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.about__section--title {
+  font-size: 44px;
+  font-weight: 400;
+  color: #dcfffe;
+  text-wrap: balance;
+}
+
+.about__section--container p {
+  color: #dcfffe;
+  padding-top: 12px;
+  font-weight: 200;
+  line-height: 1.25rem;
+  text-wrap: pretty;
 }
 
 /* Footer */
