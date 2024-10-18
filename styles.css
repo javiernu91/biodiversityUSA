@@ -58,6 +58,7 @@ header {
   height: 100%;
   padding: 12px;
   align-content: center;
+  font-weight: 400;
 }
 
 .header__navbar--item:hover {
@@ -216,6 +217,23 @@ header {
 .bento__item:hover {
   transform: scale(1.02);
   cursor: pointer;
+}
+
+/* Contact */
+.contact__section--container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  border: solid 1px #01697d;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.contact__section--form {
+  padding: 40px 0;
 }
 
 /* About */
