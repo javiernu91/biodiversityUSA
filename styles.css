@@ -219,6 +219,97 @@ header {
   cursor: pointer;
 }
 
+/* Maps */
+
+.maps__section--container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.maps__image--content {
+  width: 100%;
+  max-width: 1300px;
+  border-radius: 8px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.map--image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.maps__button--actions {
+  width: 24px;
+  height: 24px;
+  padding: 12px;
+  border-radius: 100%;
+  z-index: 20;
+  border: none;
+  background-color: rgba(235, 255, 255, 0.8);
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.5s;
+  interpolate-size: allow-keywords;
+}
+
+.maps__button--image {
+  width: 200px;
+}
+
+.maps__button--title,
+.maps__button--subtitle {
+  color: rgba(235, 255, 255);
+  text-wrap: balance;
+}
+
+.maps__button--title {
+  font-size: 14px;
+}
+
+.maps_button--text {
+  font-size: 12px;
+  color: rgba(235, 255, 255);
+  text-wrap: pretty;
+  padding-top: 4px;
+}
+
+.maps__button--actions-hover {
+  height: auto;
+  width: auto;
+  border-radius: 8px;
+  background-color: rgba(7, 31, 30, 1);
+}
+
+.maps__button--actions:hover {
+  transform: scale(1.1);
+  color: #13547a;
+}
+
+/* position */
+
+.maps__button--condor {
+  position: absolute;
+  top: 120px;
+  left: 650px;
+}
+
+.maps__button--venado {
+  position: absolute;
+  top: 150px;
+  left: 650px;
+}
+
+/* .maps__button--actions:hover {
+  height: auto;
+  width: auto;
+  border-radius: 8px;
+  background-color: rgba(7, 31, 30, 1);
+} */
+
 /* Contact */
 .contact__section--container {
   width: 100%;
