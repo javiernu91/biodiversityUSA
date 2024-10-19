@@ -269,12 +269,14 @@ header {
 
 .maps__button--image {
   width: 200px;
+  pointer-events: none;
 }
 
 .maps__button--title,
 .maps__button--subtitle {
   color: rgba(235, 255, 255);
   text-wrap: balance;
+  pointer-events: none;
 }
 
 .maps__button--title {
@@ -286,6 +288,7 @@ header {
   color: rgba(235, 255, 255);
   text-wrap: pretty;
   padding-top: 4px;
+  pointer-events: none;
 }
 
 .maps__button--actions-hover {
