@@ -61,6 +61,7 @@ header {
   align-content: center;
   font-weight: 400;
   transition: all 0.3s ease-in-out;
+  scroll-behavior: smooth;
 }
 
 .header__navbar--item:hover {
@@ -449,6 +450,7 @@ header {
 .footer--about a,
 .footer--contact a,
 .footer--social a {
+  scroll-behavior: smooth;
   margin-bottom: 2px;
 }
 
