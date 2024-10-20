@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="positions.css">
     <title>Biodiversity</title>                             
   </head>
   <body>
@@ -107,15 +108,15 @@
     </section>
     <secion class="maps__section--container">
       <div class="maps__image--content">
-        <article class="map__container maps__boy--container ">
+        <article id="boyaca" class="map__container maps__boy--container ">
         <h2 class="map__title">
           Boyacá
         </h2>
         <img width="512" alt="Mapa de Boyacá (político)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mapa_de_Boyac%C3%A1_%28pol%C3%ADtico%29.svg/512px-Mapa_de_Boyac%C3%A1_%28pol%C3%ADtico%29.svg.png?20220320203528" class="map--image"></a>
           <!-- first Item -->
-          <div id="btn_venado" class="maps__button--actions maps__button--venado">
+          <div id="btn_venado" class="maps__button--actions boyaca__button--venado">
             <h3 class="maps__button--title">
-              VENADO COLABLANCA O PARAMUNO
+              Venado Cola Blanca
             </h3>
             <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/53995297/original.jpg" alt="" class="maps__button--image">
             <h4 class="maps__button--subtitle">¿Dónde se encuentran?</h4>
@@ -126,21 +127,95 @@
           </div>
     
           <!-- Second Item -->
-          <div id="btn_condor" class="maps__button--actions maps__button--condor">
+          <div id="btn_frailejon" class="maps__button--actions boyaca__button--frailejon">
             <h3 class="maps__button--title">
-              VENADO COLABLANCA O PARAMUNO
+              Frailejón
             </h3>
-            <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/53995297/original.jpg" alt="" class="maps__button--image">
+            <img src="https://api.gbif.org/v1/image/cache/200x/occurrence/4507667441/media/76e557637bc383898feb8e458a92a4c2" alt="" class="maps__button--image">
             <h4 class="maps__button--subtitle">¿Dónde se encuentran?</h4>
             <p class="maps_button--text">
-              En gran parte del continente americano, desde Norteamérica,Centroamérica, hasta la parte norte de Suramérica en países como Colombia, Venezuela, Brasil y las tierras bajas de Perú y Ecuador. En Colombia, más particularmente en Boyacá, están en las zonas de páramo y bosque alto andino.
+              La Espeletia lopezii Cuatrec., comúnmente conocida como frailejón, es una planta característica de los ecosistemas de páramo, principalmente en los Andes de Colombia. Esta especie en particular se encuentra en los páramos de la cordillera Oriental, principalmente en los departamentos de Cundinamarca y Boyacá. Específicamente, se localiza en áreas como el páramo de Gúicán de la Sierra en el PNN El Cocuy, paramo de Sumapaz y el de Chingaza, que son zonas claves para la conservación de la biodiversidad en la región andina de Colombia. Estos ecosistemas son vitales para la regulación hídrica y la preservación de especies endémicas como la Espeletia lopezii.
             </p>
     
           </div>
 
+          <!-- Third Item -->
+          <div id="btn_carpintero" class="maps__button--actions boyaca__button--carpinteroBello">
+            <h3 class="maps__button--title">
+              Carpintero Bello
+            </h3>
+            <img src="https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4904296205/media/a055d5a3b3711f622eb4af962fc8b1c8" alt="" class="maps__button--image">
+            <h4 class="maps__button--subtitle">¿Dónde se encuentran?</h4>
+            <p class="maps_button--text">
+              En gran parte del continente americano, desde Norteamérica, Centroamérica, hasta la parte norte de Suramérica en países como Colombia, Venezuela, Brasil y las tierras bajas de Perú y Ecuador. En Colombia, más particularmente en Boyacá, están en las zonas de páramo y bosque alto andino.
+            </p>
+    
+          </div>
+
+          <!-- Fourth Item -->
+          <div id="btn_colibri" class="maps__button--actions boyaca__button--colibri">
+            <h3 class="maps__button--title">
+              Amazilia castaneiventris
+            </h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk6tHpDdCrSSpgKfpQBQJe5nmBfYPzHUzw0UGu9QfIaLK1n1iu" alt="Amazilia castaneiventris" class="maps__button--image">
+            <h4 class="maps__button--subtitle">¿Dónde se encuentran?</h4>
+            <p class="maps_button--text">
+              La Amazilia castaneiventris, conocida como colibrí vientricastaño, es una especie endémica de Colombia. Se encuentra principalmente en las regiones del valle del río Magdalena y la cordillera Oriental, en los departamentos de Cundinamarca, Boyacá, Tolima y Huila. Este colibrí habita en áreas de bosque seco tropical y bosque húmedo premontano, así como en zonas abiertas y bordes de bosque, entre los 300 y 2,100 metros de altitud.
+
+              Es una especie que suele alimentarse del néctar de flores y es importante en los procesos de polinización en su ecosistema. Sin embargo, está amenazada por la pérdida de hábitat debido a la expansión agrícola y la deforestación.
+            </p>
+    
+          </div>
+
+            <!-- Fifth Item -->
+            <div id="btn_ranaSM" class="maps__button--actions boyaca__button--ranaSM">
+              <h3 class="maps__button--title">
+                Leptodactylus colombiensis
+              </h3>
+              <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/56957585/large.jpeg" alt="Leptodactylus colombiensis" class="maps__button--image">
+              <h4 class="maps__button--subtitle">¿Dónde se encuentran?</h4>
+              <p class="maps_button--text">
+                La Leptodactylus colombiensis, descrita por Heyer en 1994, es una especie de rana que se encuentra en regiones de tierras bajas y medianas de Colombia. Esta especie es nativa de los Llanos Orientales, especialmente en los departamentos de Meta, Casanare y Arauca, así como en partes de la Orinoquía y la Amazonía colombiana. Se le puede encontrar en bosques tropicales húmedos, sabanas y áreas cercanas a cuerpos de agua temporales o permanentes, como charcas y ríos, donde realiza sus actividades reproductivas. 
+                
+                A pesar de que su nombre sugiere una amplia distribución en Colombia, su hábitat es más específico a regiones cálidas y húmedas, típicas de la Orinoquía y Amazonía. No se encuentra en regiones montañosas o de alta altitud como Boyacá
+              </p>
+      
+            </div>
+
+            <!-- Sixth Item -->
+            <div id="btn_colibriCabeciazul" class="maps__button--actions boyaca__button--colibriCabeciazul">
+              <h3 class="maps__button--title">
+                Colibrí cabeciazul
+              </h3>
+              <img src="https://api.gbif.org/v1/image/cache/200x/occurrence/4597300937/media/57cb9577d7a129f8ce699970e52eaf7a" alt="Colibrí cabeciazul" class="maps__button--image">
+              <h4 class="maps__button--subtitle">¿Dónde se encuentran?</h4>
+              <p class="maps_button--text">
+                La Saucerottia cyanifrons, conocida como colibrí cabeciazul, es una especie endémica de Colombia. Este colibrí se encuentra en la región de la cordillera Oriental, especialmente en los departamentos de Cundinamarca, Boyacá, y en algunas partes del Tolima. Habita principalmente en los bosques húmedos montanos, a alturas que oscilan entre los 1,200 y 2,400 metros sobre el nivel del mar.
+                
+                Es común en zonas de vegetación secundaria, bordes de bosque y jardines con abundantes flores, de las cuales se alimenta. La Saucerottia cyanifrons es de importancia ecológica por su papel en la polinización de plantas en los ecosistemas montanos, y aunque no está clasificada como una especie en peligro, su hábitat puede verse afectado por la expansión agrícola y la deforestación en estas áreas.
+              </p>
+      
+            </div>
+
+            <!-- Seventh Item -->
+            <div id="btn_pritimantis" class="maps__button--actions boyaca__button--pritimantis">
+              <h3 class="maps__button--title">
+                Pristimantis carranguerorum
+              </h3>
+              <img src="https://static.inaturalist.org/photos/65090/medium.JPG" class="maps__button--image">
+              <h4 class="maps__button--subtitle">¿Dónde se encuentran?</h4>
+              <p class="maps_button--text">
+                El Pristimantis carranguerorum es una especie de rana endémica de Colombia, específicamente encontrada en los páramos de la cordillera Oriental, principalmente en los departamentos de Boyacá y Cundinamarca. Su hábitat se encuentra en zonas de alta montaña, en altitudes que van desde los 2,800 hasta los 3,500 metros sobre el nivel del mar, típicamente en áreas de páramo, donde las condiciones son frías y húmedas. 
+                
+                El nombre de esta especie hace honor a los Carrangueros de Ráquira, un grupo musical folclórico de la región de Boyacá, lo que refuerza su conexión con esta área geográfica. Como muchas otras ranas de alta montaña, Pristimantis carranguerorum es sensible a los cambios en el ecosistema debido a la agricultura y la alteración del páramo, lo que podría amenazar su supervivencia.
+              </p>
+      
+            </div>
+
+
         </article> 
       
-        <article class="map__container maps__cund--container ">
+        <article id="cundinamarca" class="map__container maps__cund--container ">
           <h2 class="map__title">
             Cundinamarca
           </h2>
@@ -160,11 +235,11 @@
             </div> -->
     
           <!-- Second Item -->
-          <div id="btn_condor" class="maps__button--actions maps__button--condor">
+          <div id="btn_frailejon" class="maps__button--actions maps__button--frailejon">
             <h3 class="maps__button--title">
-              VENADO COLABLANCA O PARAMUNO
+              Frailejón
             </h3>
-            <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/53995297/original.jpg" alt="" class="maps__button--image">
+            <img src="https://api.gbif.org/v1/image/cache/200x/occurrence/4507667441/media/76e557637bc383898feb8e458a92a4c2" alt="" class="maps__button--image">
             <h4 class="maps__button--subtitle">¿Dónde se encuentran?</h4>
             <p class="maps_button--text">
               En gran parte del continente americano, desde Norteamérica,Centroamérica, hasta la parte norte de Suramérica en países como Colombia, Venezuela, Brasil y las tierras bajas de Perú y Ecuador. En Colombia, más particularmente en Boyacá, están en las zonas de páramo y bosque alto andino.

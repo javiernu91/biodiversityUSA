@@ -1,0 +1,44 @@
+/* position */
+
+/* Boyacá */
+
+.boyaca__button--frailejon {
+  position: absolute;
+  top: 220px;
+  left: 580px;
+}
+
+.boyaca__button--venado {
+  position: absolute;
+  top: 240px;
+  left: 570px;
+}
+
+.boyaca__button--carpinteroBello {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+}
+
+.boyaca__button--colibri {
+  position: absolute;
+  top: 280px;
+  left: 500px;
+}
+.boyaca__button--ranaSM {
+  position: absolute;
+  top: 650px;
+  left: 380px;
+}
+
+.boyaca__button--colibriCabeciazul {
+  position: absolute;
+  top: 390px;
+  left: 290px;
+}
+
+.boyaca__button--pritimantis {
+  position: absolute;
+  top: 500px;
+  left: 490px;
+}

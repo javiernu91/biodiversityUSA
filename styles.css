@@ -260,7 +260,7 @@ header {
   border-radius: 100%;
   z-index: 20;
   border: none;
-  background-color: rgba(235, 255, 255, 0.8);
+  background-color: rgb(7 115 135);
   cursor: pointer;
   overflow: hidden;
   transition: all 0.5s;
@@ -268,8 +268,9 @@ header {
 }
 
 .maps__button--image {
-  width: 200px;
+  width: 100%;
   pointer-events: none;
+  margin: 0px auto;
 }
 
 .maps__button--title,
@@ -277,23 +278,29 @@ header {
   color: rgba(235, 255, 255);
   text-wrap: balance;
   pointer-events: none;
+  margin: 12px 0 8px 0;
 }
 
 .maps__button--title {
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .maps_button--text {
-  font-size: 12px;
+  font-size: 14px;
   color: rgba(235, 255, 255);
   text-wrap: pretty;
   padding-top: 4px;
   pointer-events: none;
+  text-wrap: balance;
 }
 
 .maps__button--actions-hover {
   height: auto;
-  width: auto;
+  max-height: 350px;
+  overflow-y: scroll;
+  width: 240px;
+  max-width: 240px;
   border-radius: 8px;
   background-color: rgba(7, 31, 30, 1);
 }
@@ -301,20 +308,6 @@ header {
 .maps__button--actions:hover {
   transform: scale(1.1);
   color: #13547a;
-}
-
-/* position */
-
-.maps__button--condor {
-  position: absolute;
-  top: 120px;
-  left: 650px;
-}
-
-.maps__button--venado {
-  position: absolute;
-  top: 150px;
-  left: 650px;
 }
 
 /* .maps__button--actions:hover {
