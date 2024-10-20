@@ -238,6 +238,11 @@ header {
   gap: 18px;
 }
 
+.maps__cund--container {
+  position: relative;
+  background-color: #dcfffe;
+}
+
 .map__container {
   min-width: 100%;
 }
