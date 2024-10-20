@@ -19,6 +19,7 @@ body {
   /* height: 300vh; */
   background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
   background-repeat: no-repeat;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -59,10 +60,12 @@ header {
   padding: 12px;
   align-content: center;
   font-weight: 400;
+  transition: all 0.3s ease-in-out;
 }
 
 .header__navbar--item:hover {
-  background-image: linear-gradient(180deg, #f5f7fada 0%, #80d0c79a 100%);
+  transform: scale(1.05);
+  /* background-image: linear-gradient(180deg, #f5f7fada 0%, #80d0c79a 100%); */
 }
 
 .main__slider {
@@ -154,11 +157,11 @@ header {
   border-radius: 12px;
   backdrop-filter: blur(12px);
   /* border: solid 1px rgba(0, 0, 0, 0.1); */
-  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.05),
-    0 2px 4px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 14px rgb(0 0 0 / 55%);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
 }
 
 .bento__item--info {
@@ -232,7 +235,7 @@ header {
 .maps__image--content {
   width: 100%;
   max-width: 1300px;
-  border-radius: 8px;
+  border-radius: 12px;
   position: relative;
   margin: 0 auto;
   gap: 18px;
@@ -240,7 +243,6 @@ header {
 
 .maps__cund--container {
   position: relative;
-  background-color: #dcfffe;
 }
 
 .map__container {
@@ -255,17 +257,18 @@ header {
 
 .map--image {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 .maps__button--actions {
-  width: 24px;
-  height: 24px;
-  padding: 12px;
+  width: 16px;
+  height: 16px;
   border-radius: 100%;
   z-index: 20;
   border: none;
   background-color: rgb(7 115 135);
+  box-shadow: -2px -2px 5px 0px rgba(255, 255, 255, 0.64),
+    2px 2px 5px 0px rgb(0 51 17 / 64%);
   cursor: pointer;
   overflow: hidden;
   transition: all 0.5s;
@@ -276,6 +279,7 @@ header {
   width: 100%;
   pointer-events: none;
   margin: 0px auto;
+  border-radius: 8px;
 }
 
 .maps__button--title,
@@ -303,10 +307,11 @@ header {
 .maps__button--actions-hover {
   height: auto;
   max-height: 350px;
+  padding: 12px;
   overflow-y: scroll;
   width: 240px;
   max-width: 240px;
-  border-radius: 8px;
+  border-radius: 12px;
   background-color: rgba(7, 31, 30, 1);
 }
 
