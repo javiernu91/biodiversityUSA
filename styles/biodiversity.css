@@ -1,0 +1,26 @@
+.biodiversity__page--title {
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  padding: 40px;
+}
+
+.biodiversity__section--container {
+  width: 100%;
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding-top: 40px;
+  margin: 0 auto;
+  gap: 25px;
+}
+
+.biodiversity__article {
+  width: 100%;
+  height: auto;
+  padding: 12px;
+  background-color: transparent;
+  backdrop-filter: blur(150px) opacity(50%);
+  border-radius: 8px;
+  box-shadow: 3px 3px 15px rgb(0 0 0 / 10%);
+}
