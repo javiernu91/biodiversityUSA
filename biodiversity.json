@@ -63,29 +63,16 @@
   ],
   "Cundinamarca": [
     {
-      "title": "Frailejón (Espeletia grandiflora)",
-      "description": "Especie de frailejón que se encuentra en los páramos de Cundinamarca, especialmente en Chingaza. Es fundamental para la conservación del agua en estos ecosistemas.",
-      "image": "https://example.com/frailejon-cundinamarca.jpg"
+      "title": "Allobates niputidea Grant, Acosta-Galvis & Rada, 2007",
+      "description": "Allobates niputidea es una especie de anfibio anuro de la familia Aromobatidae. Dorso de color marrón oscuro; franja dorsolateral más clara, desde marrón pálido hasta crema o gris claro, extendiéndose desde el borde posterior del párpado. Flanco marrón oscuro interrumpido por una región pálida, difusa y discreta o un grupo de pequeñas manchas extendiéndose hasta el punto medio del brazo. Patas marrón. Los machos adultos miden aproximadamente 17 mm, presentan garganta, pecho y vientre anterior negros, con una franja lateral oblicua pálida difusa. Las hembras miden 18 mm y tienen el vientre blanco.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg26Qchk0MAV9kgAeY2CsyAeOlhnWK5ZNXkn934WPm-67qKECKUhOe11UW4t-X2HwzCkvxbgEPG3K7H1-L5RGvJDNQtkmb4XDmL78jy2HBVzFX5rHT0UaDfPfNYX4OtlE7Vm5BzsNm2wbXg/w1200-h630-p-k-no-nu/allobates-zaparo.jpg",
+      "link": "https://es.wikipedia.org/wiki/Allobates_niputidea"
     },
     {
-      "title": "Colibrí Vientricastaño (Amazilia castaneiventris)",
-      "description": "Endémico de la cordillera Oriental, este colibrí se encuentra en bosques húmedos y zonas semiabiertas de Cundinamarca. Es importante para la polinización en estos hábitats.",
-      "image": "https://example.com/colibri-vientricastano.jpg"
-    },
-    {
-      "title": "Páramo de Chingaza",
-      "description": "Uno de los páramos más importantes de Colombia, ubicado en Cundinamarca. Alberga especies endémicas y es una fuente clave de agua para Bogotá y sus alrededores.",
-      "image": "https://example.com/paramo-chingaza.jpg"
-    },
-    {
-      "title": "Cola de Rastrojo Bogotana (Synallaxis subpudica)",
-      "description": "Ave endémica de la cordillera Oriental que se encuentra en matorrales y bordes de bosque en Cundinamarca. Su hábitat está en riesgo debido a la expansión urbana.",
-      "image": "https://example.com/cola-rastrojo.jpg"
-    },
-    {
-      "title": "Murciélago de Montaña (Anoura cultrata)",
-      "description": "Especie de murciélago nectarívoro que se encuentra en las montañas de Cundinamarca. Cumple una función ecológica importante al polinizar plantas nocturnas.",
-      "image": "https://example.com/murcielago-montana.jpg"
+      "title": "Allobates niputidea Grant, Acosta-Galvis & Rada, 2007",
+      "description": "Anthocephala es un género de aves apodiformes de la familia Trochilidae que incluye dos especies de colibríes endémicas de Colombia.",
+      "image": "https://live.staticflickr.com/65535/50662931161_cc93e2775e_b.jpg",
+      "link": "https://es.wikipedia.org/wiki/Anthocephala"
     }
   ]
 }
