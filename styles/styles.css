@@ -312,6 +312,8 @@ header {
   max-height: 350px;
   padding: 12px;
   overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
   width: 240px;
   max-width: 240px;
   border-radius: 12px;
