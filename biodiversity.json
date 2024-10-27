@@ -1,0 +1,56 @@
+{
+  "Boyacá": [
+    {
+      "title": "Frailejón (Espeletia lopezii)",
+      "description": "Planta endémica de los páramos de Boyacá, especialmente en el páramo de Chingaza y Sumapaz. Los frailejones son vitales para la captación y regulación de agua en estos ecosistemas.",
+      "image": "https://example.com/frailejon-boyaca.jpg"
+    },
+    {
+      "title": "Colibrí Cabeciazul (Saucerottia cyanifrons)",
+      "description": "Especie endémica de Colombia, que habita bosques montanos y áreas de vegetación secundaria en Boyacá. Este colibrí es un polinizador clave en los ecosistemas andinos.",
+      "image": "https://example.com/colibri-cabeciazul.jpg"
+    },
+    {
+      "title": "Rana de Páramo (Pristimantis carranguerorum)",
+      "description": "Rana endémica de los páramos de Boyacá, adaptada a las bajas temperaturas y condiciones húmedas de alta montaña. Su hábitat está amenazado por la agricultura.",
+      "image": "https://example.com/rana-paramo.jpg"
+    },
+    {
+      "title": "Páramo de Pisba",
+      "description": "Un ecosistema de alta montaña en Boyacá que alberga flora y fauna únicas adaptadas a climas extremos y que sirve como importante fuente de agua para la región.",
+      "image": "https://example.com/paramo-pisba.jpg"
+    },
+    {
+      "title": "Urraca Verde (Cyanocorax yncas)",
+      "description": "Ave colorida con plumaje verde y alas azules, común en los bosques de Boyacá. Se alimenta de frutos, insectos y pequeños vertebrados.",
+      "image": "https://example.com/urraca-verde.jpg"
+    }
+  ],
+  "Cundinamarca": [
+    {
+      "title": "Frailejón (Espeletia grandiflora)",
+      "description": "Especie de frailejón que se encuentra en los páramos de Cundinamarca, especialmente en Chingaza. Es fundamental para la conservación del agua en estos ecosistemas.",
+      "image": "https://example.com/frailejon-cundinamarca.jpg"
+    },
+    {
+      "title": "Colibrí Vientricastaño (Amazilia castaneiventris)",
+      "description": "Endémico de la cordillera Oriental, este colibrí se encuentra en bosques húmedos y zonas semiabiertas de Cundinamarca. Es importante para la polinización en estos hábitats.",
+      "image": "https://example.com/colibri-vientricastano.jpg"
+    },
+    {
+      "title": "Páramo de Chingaza",
+      "description": "Uno de los páramos más importantes de Colombia, ubicado en Cundinamarca. Alberga especies endémicas y es una fuente clave de agua para Bogotá y sus alrededores.",
+      "image": "https://example.com/paramo-chingaza.jpg"
+    },
+    {
+      "title": "Cola de Rastrojo Bogotana (Synallaxis subpudica)",
+      "description": "Ave endémica de la cordillera Oriental que se encuentra en matorrales y bordes de bosque en Cundinamarca. Su hábitat está en riesgo debido a la expansión urbana.",
+      "image": "https://example.com/cola-rastrojo.jpg"
+    },
+    {
+      "title": "Murciélago de Montaña (Anoura cultrata)",
+      "description": "Especie de murciélago nectarívoro que se encuentra en las montañas de Cundinamarca. Cumple una función ecológica importante al polinizar plantas nocturnas.",
+      "image": "https://example.com/murcielago-montana.jpg"
+    }
+  ]
+}
