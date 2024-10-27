@@ -1,0 +1,94 @@
+/* position */
+
+/* Boyacá */
+
+.boyaca__button--frailejon {
+  position: absolute;
+  top: 220px;
+  left: 580px;
+}
+
+.boyaca__button--venado {
+  position: absolute;
+  top: 240px;
+  left: 570px;
+}
+
+.boyaca__button--carpinteroBello {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+}
+
+.boyaca__button--colibri {
+  position: absolute;
+  top: 280px;
+  left: 500px;
+}
+.boyaca__button--ranaSM {
+  position: absolute;
+  top: 650px;
+  left: 380px;
+}
+
+.boyaca__button--colibriCabeciazul {
+  position: absolute;
+  top: 390px;
+  left: 290px;
+}
+
+.boyaca__button--pritimantis {
+  position: absolute;
+  top: 500px;
+  left: 490px;
+}
+
+/* cund */
+
+.cund__button--sinallaxis {
+  position: absolute;
+  top: 600px;
+  left: 300px;
+}
+
+/* Medina */
+.cund__button--ranaLemur {
+  position: absolute;
+  top: 570px;
+  left: 530px;
+}
+
+/* Guaduas */
+.cund__button--draptius {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+}
+
+/* Riicaurte */
+.cund__button--anarita {
+  position: absolute;
+  top: 638px;
+  left: 80px;
+}
+
+/* Chocontá */
+.cund__button--amanita {
+  position: absolute;
+  top: 345px;
+  left: 440px;
+}
+
+/* San Bernardo */
+.cund__button--cyanocorax {
+  position: absolute;
+  top: 700px;
+  left: 200px;
+}
+
+/* Pacho */
+.cund__button--argiope {
+  position: absolute;
+  top: 350px;
+  left: 310px;
+}
