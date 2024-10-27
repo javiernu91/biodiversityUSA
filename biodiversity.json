@@ -1,29 +1,64 @@
 {
   "Boyacá": [
     {
-      "title": "Frailejón (Espeletia lopezii)",
-      "description": "Planta endémica de los páramos de Boyacá, especialmente en el páramo de Chingaza y Sumapaz. Los frailejones son vitales para la captación y regulación de agua en estos ecosistemas.",
-      "image": "https://example.com/frailejon-boyaca.jpg"
+      "title": "Ortalis columbiana Hellmayr, 1906",
+      "description": "La chachalaca colombiana o guacharaca colombiana2​ (Ortalis columbiana) es una especie de ave crácida del género Ortalis. Es una de las especies endémicas más carismáticas de Colombia, donde habita en bosques del norte, centro y oeste de ese país sudamericano, siempre al oeste de los Andes. Fue considerada como una subespecie de Ortalis guttata, pero a la luz de diferencias vocales, morfológicas y consideraciones biogeográficas, en una mejor aproximación hacia el concepto de especie biológica, y teniendo en consideración las formas prevalecientes en la constitución de los límites entre el resto de las especies del género (del cual se postuló que todos sus integrantes podrían ser considerados como formando una única superespecie), fue reconocido su carácter específico.",
+      "image": "https://api.gbif.org/v1/image/cache/200x/occurrence/4867842430/media/67bde138b064089a47620b5fa414e8b1",
+      "link": "https://es.wikipedia.org/wiki/Ortalis_columbiana"
     },
     {
-      "title": "Colibrí Cabeciazul (Saucerottia cyanifrons)",
-      "description": "Especie endémica de Colombia, que habita bosques montanos y áreas de vegetación secundaria en Boyacá. Este colibrí es un polinizador clave en los ecosistemas andinos.",
-      "image": "https://example.com/colibri-cabeciazul.jpg"
+      "title": "Synallaxis subpudica P.L.Sclater, 1874",
+      "description": "El pijuí de Cundinamarca (Synallaxis subpudica), también denominado chamicero cundiboyacense, pijuí de garganta plateada o rastrojero rabilargo, es una especie de ave paseriforme de la familia Furnariidae perteneciente al numeroso género Synallaxis. Es endémica de Colombia. Mide entre 17 y 18 cm de longitud. La cola es larga, alcanza 10,9 cm de largo y es de color pardo grisáceo. La corona y las alas de color castaño rojizo o rufo contrastan con el dorso pardo con matices grisáceos a oliváceos, la frente y las mejillas grises, las partes inferiores color gris claro blancuzco, brillante en la garganta, que presenta una pequeña mancha negra.",
+      "image": "https://avesdeperu.org/wp-content/uploads/2019/03/cinereous-breasted_spinetail-2.jpg",
+      "link": "https://es.wikipedia.org/wiki/Synallaxis_subpudica"
     },
     {
-      "title": "Rana de Páramo (Pristimantis carranguerorum)",
-      "description": "Rana endémica de los páramos de Boyacá, adaptada a las bajas temperaturas y condiciones húmedas de alta montaña. Su hábitat está amenazado por la agricultura.",
-      "image": "https://example.com/rana-paramo.jpg"
+      "title": "Crax alberti Fraser, 1852",
+      "description": "El paujil colombiano (Crax alberti), también conocido como pavón piquiazul, pavón colombiano, hocco piguiazul, muitú de pico azul y opón, es una especie de ave galliforme de la familia Cracidae endémica del norte de Colombia, desde el piedemonte de la Sierra Nevada de Santa Marta hasta la cuenca baja y media del río Magdalena. No se conocen subespecies. Alcanza en promedio 91 cm de longitud. Sus plumas son negras y brillantes, excepto en la punta de la cola y el abdomen, donde son blancas. El macho presenta sobre el pico carúnculas y cera de color azul. El pico de la hembra carece de prominencias pero la base también es azul, sus partes bajas castañas, pecho y cola con línas blancas y tiene una fase de color rojizo.",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/278952229/large.jpeg",
+      "link": "https://es.wikipedia.org/wiki/Crax_alberti"
     },
     {
-      "title": "Páramo de Pisba",
-      "description": "Un ecosistema de alta montaña en Boyacá que alberga flora y fauna únicas adaptadas a climas extremos y que sirve como importante fuente de agua para la región.",
-      "image": "https://example.com/paramo-pisba.jpg"
+      "title": "Cistothorus apolinari Chapman, 1914",
+      "description": "El cucarachero de pantano o chirriador (Cistothorus apolinari) es una especie de ave de la familia Troglodytidae , endémico de la Cordillera Oriental de los Andes de Colombia. En promedio mide 12,5 cm de longitud. Es de color marrón, más oscuro en la cabeza, con parches color gris alrededor de los ojos; rayas oscuras en el dorso; la garganta, el pecho y el abdomen de color blancuzco a anteado. y cola rojiza. Su canto se compone principalmente de notas bajas, con un sonido característico de twii y hace un llamado territorial que suena como tchorr. Se alimenta de arañas e insectos.",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSXDqrxCc_sB2ZpqW-9Os6enm8JZMnm7Z1suqwuCdJWkhuKU_vM",
+      "link": "https://es.wikipedia.org/wiki/Cistothorus_apolinari"
     },
     {
-      "title": "Urraca Verde (Cyanocorax yncas)",
-      "description": "Ave colorida con plumaje verde y alas azules, común en los bosques de Boyacá. Se alimenta de frutos, insectos y pequeños vertebrados.",
-      "image": "https://example.com/urraca-verde.jpg"
+      "title": "Pristimantis lynchi (Duellman & Simmons, 1977)",
+      "description": "Esta especie es endémica de la Cordillera Oriental en Colombia. Habita en los departamentos de Boyacá y Santander entre los 2460 y 3340 m sobre el nivel del mar en el Páramo de Vigajual. Los machos miden de 21.0 a 27.9 mm y las hembras de 26.7 a 36.4 mm. Esta especie lleva el nombre en honor a John Douglas Lynch.",
+      "image": "https://i.ytimg.com/vi/W_amZwEYZtk/maxresdefault.jpg",
+      "link": "https://es.wikipedia.org/wiki/Pristimantis_lynchi"
+    },
+    {
+      "title": "Thryophilus nicefori (Meyer de Schauensee, 1946)",
+      "description": "El cucarachero de Nicéforo, cucarachero del Chicamocha o ratona de Nicéforo (Thryophilus nicefori) es una especie de ave de la familia Troglodytidae, endémica de Colombia. Vive en el bosque seco y plantaciones con sombrío, entre los 1.100 y 1850 m de altitud. Registrada en matorrales xerofíticos dominados por Acacia y bosques riparios de los municipios de San Gil, Barichara y Galán (Santander). Mide 14,5 cm de longitud. El plumaje de las partes superiores es rufo; presenta superciliar blanco, mejillas y cuello blancos con rayas negras; las partes inferiores son blancuzcas, con matices de color castaño en los lados y los flancos y barras negras en el crísum.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Thryothorus_sinaloa_Arizona.jpg/1200px-Thryothorus_sinaloa_Arizona.jpg",
+      "link": "https://es.wikipedia.org/wiki/Thryophilus_nicefori"
+    },
+    {
+      "title": "Andinobates virolinensis (Ruiz-Carranza & Ramírez-Pinilla, 1992)",
+      "description": "Andinobates virolinensis2​ es una especie de anfibio anuro de la familia Dendrobatidae. Esta especie es endémica de Colombia. Se encuentra en los departamentos de Cundinamarca y Santander entre los 1300 y 1850 m sobre el nivel del mar en la vertiente occidental de la Cordillera Oriental. ",
+      "image": "https://i.pinimg.com/736x/a2/b5/2b/a2b52b05f0790f73ca1d7c70f062e7cf.jpg",
+      "link": "https://es.wikipedia.org/wiki/Andinobates_virolinensis"
+    },
+    {
+      "title": "Agalychnis terranova Rivera-Correa, Duarte-Cubides, Rueda-Almonacid & Daza-R., 2013",
+      "description": "Agalychnis terranova es una especie de anfibio anuro perteneciente a la familia Hylidae. Vive en Colombia. Los científicos la han lo visto entre 240 y 900 metros sobre el nivel del mar. La rana adulta mide 4.7 cm de largo, y la hembra es más grande que el macho. Su piel es verde con muchas verrugas. Esta rana se parece mucho a otras ranas de su género, pero sus lados son anaranjados con verrugas blancas en lugar de azules. Los científicos creen que esta rana es nocturna. Esta especie está amenazada por la actividad minera en y cerca de su hábitat.",
+      "image": "https://www.researchgate.net/publication/352881755/figure/fig1/AS:1040765031563264@1625149128105/Adult-male-of-Agalychnis-terranova-CBUMAGANF01173-SVL-437-mm-from-south-western.jpg",
+      "link": "https://es.wikipedia.org/wiki/Agalychnis_terranova"
+    },
+    {
+      "title": "Capito hypoleucus Salvin, 1897",
+      "description": "El cabezón dorsiblanco, torito dorsiblanco, torito capiblanco, chaboclo de espalda blanca o barbudo de manto blanco, (Capito hypoleucus) es una especie de ave de la familia Capitonidae, es endémica de Colombia, se encuentra principalmente en las sierras de Las Quinchas (Valle del Magdalena). Mide 19 cm, habita en bosques húmedos, principalmente a partir de los 1000 m s. n. m., se los ha visualizado además en cultivos de café y pastizales, se alimentan de semillas, insectos y frutos. Es una especie amenazada, la causa principal es la desforestación.",
+      "image": "https://miniaturas.biodiversidad.co/400x,q60/https://inaturalist-open-data.s3.amazonaws.com/photos/133380737/original.jpg",
+      "link": "https://es.wikipedia.org/wiki/Capito_hypoleucus"
+    },
+    {
+      "title": "Colostethus inguinalis (Cope, 1868)",
+      "description": "Colostethus inguinalis es una especie de anfibio anuro de la familia Dendrobatidae. Esta especie es endémica de Colombia. Habita en los departamentos de Chocó, Antioquia, Córdoba y Boyacá desde el nivel del mar hasta 400 m de altitud.",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/246303669/small.jpeg",
+      "link": "https://en.wikipedia.org/wiki/Colostethus_inguinalis"
     }
   ],
   "Cundinamarca": [
