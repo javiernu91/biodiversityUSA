@@ -73,6 +73,42 @@
       "description": "Anthocephala es un género de aves apodiformes de la familia Trochilidae que incluye dos especies de colibríes endémicas de Colombia.",
       "image": "https://live.staticflickr.com/65535/50662931161_cc93e2775e_b.jpg",
       "link": "https://es.wikipedia.org/wiki/Anthocephala"
+    },
+    {
+      "title": "Atelopus muisca",
+      "description": "Atelopus muisca es una especie de anfibios de la familia Bufonidae. Es endémica de Colombia. Su hábitat natural incluye montanos secos, praderas tropicales o subtropicales a gran altitud, y ríos. Está amenazada de extinción por la pérdida de su hábitat natural.",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/25635/medium.jpg",
+      "link": "https://es.wikipedia.org/wiki/Atelopus_muisca"
+    },
+    {
+      "title": "Bolitoglossa adspersa",
+      "description": "La salamandra de Chingaza, charchala o salamandra escaladora de Peters (Bolitoglossa adspersa') es una especie de anfibio urodelo de la familia Plethodontidae. Es endémica de los departamentos colombianos de Boyacá, Santander y Cundinamarca y el distrito de Bogotá, en la región de los Andes. Su hábitat son las montañas tropicales húmedas y cubiertas de vegetación, entre los 1750 y los 3600 m de altitud. Su piel es de pigmentación negruzca frecuentemente con líneas cortas de color rojo o anaranjado. Mide en promedio 69 cm de longitud. Carece de membranas interdigitales. Sus hábitos son nocturnos y pasa el día bajo piedras o bajo las hojas caídas de los frailejones. Se alimenta de pequeños invertebrados.",
+      "image": "https://s3.animalia.bio/animals/photos/full/1.25x1/bolitoglossa-phalarosoma01.webp?id=4a2a70d751bda0a77634e366b42453b7",
+      "link": "https://es.wikipedia.org/wiki/Bolitoglossa_adspersa"
+    },
+    {
+      "title": "Cryptotis thomasi (Merriam, 1897)",
+      "description": "Endémica de la Cordillera Oriental de los Andes de Colombia, se encuentra en el bosque nuboso, bosques húmedos y páramos, entre los 2.600 y 3.500 m de altitud.Mide en promedio 8,3 cm de longitud, con cola de 2,9 cm de largo. Pesa entre 7 y 12 gr. Cabeza larga y puntiaguda con ojos muy pequeños y un pigmento rojo en la frente. Pelaje aterciopelado, el dorsal castaño grisáceo a marrón obscuro, el ventral de color ante.Terrestres fosoriales. Solitarios. Se alimentan de insectos, arañas, milpiés y de otros invertebrados como lombrices de tierra. Para desplazarse utilizan pequeños senderos entre la hojarasca, el musgo y las plantas herbáceas. Se refugian debajo de rocas y árboles caídos, preferentemente entre las capas de musgo.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9d_FijMl2F8yjjFbSZZzkvw5t7ARF3s_w64Xd0ClTSkMzbGWHxgW_QWQq21yT0AfA6no&usqp=CAU",
+      "link": "https://es.wikipedia.org/wiki/Cryptotis_thomasi"
+    },
+    {
+      "title": "Dendropsophus padreluna (Kaplan & Ruiz-Carranza, 1997)",
+      "description": "Dendropsophus padreluna es una especie de anfibios de la familia Hylidae. Es endémica de Colombia. Sus hábitats naturales incluyen praderas a gran altitud, pantanos, marismas intermitentes de agua dulce, pastos, jardines rurales y estanques.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Dendropsophus_padreluna.jpg",
+      "link": "https://es.wikipedia.org/wiki/Dendropsophus_padreluna"
+    },
+    {
+      "title": "Grallaria kaestneri F.G.Stiles, 1992",
+      "description": "El tororoí de Cundinamarca (Grallaria kaestneri) ye una especie d'ave de la familia Grallariidae, enantes incluyida na familia Formicariidae, endémica de Colombia. Vive nel monte nublu bien húmedu de l'aguada oriental del Cordal Oriental de los Andes, ente los 1.800 y 2.300 m d'altitú. Mide 15,5 cm de llargor. Plumaxe pardu olivaceu escuru, con lores y aniellu ocular blancos; el gargüelu blancu opaca y el pechu oliva abuxáu con estríes delgaes blanques.",
+      "image": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/561745231/640",
+      "link": "https://ast.wikipedia.org/wiki/Grallaria_kaestneri"
+    },
+    {
+      "title": "Hypopyrrhus pyrohypogaster (Tarragon, 1847)",
+      "description": "El cacique candela, turpial de vientre rojo o chango ventrirrojo (Hypopyrrhus pyrohypogaster) es una especie de ave paseriforme de la familia Icteridae endémica de Colombia. Es el único miembro del género Hypopyrrhus. Vive en la canopia y los bordes de bosques tropicales de montañas del oeste de Colombia, entre los 1.200 y 2.700 m de altitud. Está amenazado por pérdida de hábitat. El macho mide 31,5 cm de longitud y la hembra 27 cm. Plumaje negro mate, en la cabeza, el cuello y la nuca con ejes brillantes; vientre rojo brillante. El pico y las patas son negros.El iris es amarillo.",
+      "image": "https://sao.org.co/wp-content/uploads/2021/11/cacique-candela-Hypopyrrhus-pyrohypogaster.jpg",
+      "link": "https://es.wikipedia.org/wiki/Hypopyrrhus_pyrohypogaster#:~:text=El%20cacique%20candela%2C%20turpial%20de,%C3%BAnico%20miembro%20del%20g%C3%A9nero%20Hypopyrrhus."
     }
   ]
 }
