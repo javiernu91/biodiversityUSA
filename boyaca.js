@@ -12,16 +12,27 @@ async function loadBiodiversity() {
       title.textContent = `Biodiversidad de ${region}`;
       // console.log(region);
       data[region].map((element) => {
-        console.log(
-          "title: ",
-          element.title,
-          "Description: ",
-          element.description
-        );
+        // console.log(
+        //   "title: ",
+        //   element.title,
+        //   "Description: ",
+        //   element.description
+        // );
+
+        let articleContainer = document.createElement("a");
+        articleContainer.classList = "biodiversity__article--container";
+        articleContainer.href = element.link;
+        articleContainer.target = "_black";
+        container.append(articleContainer);
 
         let article = document.createElement("article");
         article.classList = "biodiversity__article";
-        container.append(article);
+        articleContainer.append(article);
+
+        let image = document.createElement("img");
+        image.classList = "biodiversity__article--image";
+        image.src = element.image;
+        article.append(image);
 
         let subtitle = document.createElement("h2");
         subtitle.classList = "biodiversity__article--title";
@@ -32,11 +43,6 @@ async function loadBiodiversity() {
         description.classList = "biodiversity__article--description";
         description.innerHTML = element.description;
         article.append(description);
-
-        let image = document.createElement("img");
-        image.classList = "biodiversity__article--image";
-        image.src = element.image;
-        article.append(image);
       });
     }
   }
