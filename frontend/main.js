@@ -7,5 +7,3 @@ document.addEventListener("click", function (event) {
     element.classList.toggle("maps__button--actions-hover");
   console.log(element);
 });
-
-console.log("Aqui estamos");
