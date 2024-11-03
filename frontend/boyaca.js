@@ -3,8 +3,8 @@ const boyCont = document.querySelector("#boyacaContainer");
 const cundCont = document.querySelector("#cundinamarcaContainer");
 
 async function loadBiodiversity() {
-  // const response = await fetch("http://127.0.0.1:5000/datosBoyaca");
-  const response = await fetch(".././frontend/biodiversity.json");
+  const response = await fetch("http://127.0.0.1:5000/datosBoyaca");
+  // const response = await fetch(".././frontend/biodiversity.json");
 
   const data = await response.json();
 
