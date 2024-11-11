@@ -13,7 +13,7 @@ CORS(app)
 
 def sendInfoCundBiodiversity():
   #Set the data and save in top_values dataframe
-  allEspecies = pd.read_csv('cundBio.csv', usecols=['label', 'count'])
+  allEspecies = pd.read_csv('assets/cundBio.csv', usecols=['label', 'count'])
   top_values = allEspecies.nlargest(15, 'count')
 
   fig, ax = plt.subplots()
@@ -67,12 +67,11 @@ def sendInfoCundBiodiversity():
   plt.close(fig)
   return Response(buf.getvalue(), mimetype='image/png')
 
-
 @app.route('/boyaca', methods= ['GET'])
 
 def sendInfoBoyBiodiversity():
   #Set the data and save in top_values dataframe
-  allEspecies = pd.read_csv('boyacaTotalEspecies.csv', usecols=['label', 'especies_region_total'])
+  allEspecies = pd.read_csv('assets/boyacaTotalEspecies.csv', usecols=['label', 'especies_region_total'])
   top_values = allEspecies.nlargest(15, 'especies_region_total')
 
   fig, ax = plt.subplots()
