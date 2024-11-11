@@ -225,6 +225,13 @@ header {
 
 /* Maps */
 
+.images__boy--container,
+.images__cund--container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
 .maps__section--container {
   display: flex;
   justify-content: center;
@@ -323,6 +330,13 @@ header {
 .maps__button--actions:hover {
   transform: scale(1.1);
   color: #13547a;
+}
+
+/*Graphics*/
+
+.boyaca__graphyc {
+  max-width: 100%;
+  border-radius: 8px;
 }
 
 /* .maps__button--actions:hover {

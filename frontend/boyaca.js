@@ -54,26 +54,4 @@ const createElements = (data) => {
   }
 };
 
-//cargar grafica desde el backend
-
-// async function loadGraphic() {
-//   const response = await fetch("http://127.0.0.1:5000/boyaca");
-//   console.log("Data map: ", response);
-//   const image = await response.blob();
-//   const urlImage = URL.createObjectURL(image);
-
-//   let graphicImage = document.createElement("img");
-//   graphicImage.classList.add("boyaca__graphyc");
-//   graphicImage.src = urlImage;
-
-//   boyCont.appendChild(graphicImage);
-
-//   // const container = document.createElement("section");
-//   // document.body.appendChild(container);
-
-//   // console.log(data);
-// }
-
-// loadGraphic();
-
 loadBiodiversity();

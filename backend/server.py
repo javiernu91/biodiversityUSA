@@ -9,6 +9,69 @@ app = Flask(__name__)
 
 CORS(app)
 
+@app.route('/cundinamarca', methods= ['GET'])
+
+def sendInfoCundBiodiversity():
+  #Set the data and save in top_values dataframe
+  allEspecies = pd.read_csv('cundBio.csv', usecols=['label', 'count'])
+  top_values = allEspecies.nlargest(15, 'count')
+
+  fig, ax = plt.subplots()
+ 
+  # plt.bar(top_values['label'], top_values['count'], color='g')
+  # plt.title('TOTAL ESPECIFES OBSERVADAS POR MUNICIPIO', fontsize=18)
+  # plt.xlabel('MUNICIPIOS', fontsize=14)
+  # plt.ylabel('TOTAL ESPECIES', fontsize=14)
+
+  ax.bar(top_values['label'], top_values['count'], color='g')
+  ax.set_title('TOTAL ESPECIFES OBSERVADAS POR MUNICIPIO', fontsize=18)
+  ax.set_xlabel('MUNICIPIOS', fontsize=14)
+  ax.set_ylabel('TOTAL ESPECIES', fontsize=14)
+  plt.yticks(fontsize=12)
+
+  # Save the grafic in buffer
+  buf = io.BytesIO()
+  fig.savefig(buf, format="png")
+  buf.seek(0)
+  # print(buf)
+
+  #Close the figure to free memory
+  plt.close(fig)
+  return Response(buf.getvalue(), mimetype='image/png')
+
+
+@app.route('/boyaca', methods= ['GET'])
+
+def sendInfoBoyBiodiversity():
+  #Set the data and save in top_values dataframe
+  allEspecies = pd.read_csv('boyacaTotalEspecies.csv', usecols=['label', 'especies_region_total'])
+  top_values = allEspecies.nlargest(15, 'especies_region_total')
+
+  fig, ax = plt.subplots()
+
+  # plt.bar(top_values['label'], top_values['especies_region_total'], color='g')
+  # plt.title('TOTAL ESPECIFES OBSERVADAS POR MUNICIPIO', fontsize=18)
+  # plt.xlabel('MUNICIPIOS', fontsize=14)
+  # plt.ylabel('TOTAL ESPECIES', fontsize=14)  
+  # plt.yticks(fontsize=12, rotation=90)
+  # plt.xticks(totalEspecies.label) 
+
+  ax.bar(top_values['label'], top_values['especies_region_total'], color='g')
+  ax.set_title('TOTAL ESPECIFES OBSERVADAS POR MUNICIPIO', fontsize=18)
+  ax.set_xlabel('MUNICIPIOS', fontsize=14)
+  ax.set_ylabel('TOTAL ESPECIES', fontsize=14)
+  plt.yticks(fontsize=12)
+
+
+
+  buf = io.BytesIO()
+  plt.savefig(buf, format="png")
+  buf.seek(0)
+  # print(buf)
+  plt.close(fig)
+
+  return Response(buf.getvalue(), mimetype='image/png')
+
 @app.route('/datosBoyaca')
 def getData():
   return {
