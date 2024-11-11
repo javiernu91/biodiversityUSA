@@ -23,15 +23,38 @@ def sendInfoCundBiodiversity():
   # plt.xlabel('MUNICIPIOS', fontsize=14)
   # plt.ylabel('TOTAL ESPECIES', fontsize=14)
 
-  ax.bar(top_values['label'], top_values['count'], color='g', edgecolor='black', alpha=0.6, width=.8)
-  ax.set_title('TOTAL ESPECIFES OBSERVADAS POR MUNICIPIO', fontsize=16)
+  bars = ax.bar(top_values['label'], top_values['count'], color='limegreen', edgecolor='seagreen', alpha=0.6, width=.8)
+  ax.set_title('TOTAL ESPECIFES OBSERVADAS POR MUNICIPIO', fontsize=16, pad=10)
   ax.set_xlabel('MUNICIPIOS', fontsize=12)
   ax.set_ylabel('TOTAL ESPECIES', fontsize=12)
+
+  # Add background color 
+  ax.set_facecolor('honeydew')
+
+  # Add padding between maximum value and edge graph
+  max_val = top_values['count'].max()
+  ax.set_ylim(0, max_val * 1.2)
+  # Add a grid background
+  ax.grid(axis='y', linestyle='--', alpha=0.7)
 
   plt.yticks(fontsize=8)
   plt.xticks(fontsize=8, rotation=90)
 
-     # Adjust margins around the chart
+  # Show the height of every bar
+  for bar in bars:
+      ax.text(
+          bar.get_x() + bar.get_width() / 2,
+          bar.get_height() ,
+          f'{bar.get_height():.0f}',
+          ha='center',
+          va='bottom',
+          rotation=45,
+          fontsize=6,
+          color='darkslategrey',
+          
+      )
+
+  # Adjust margins around the chart
   plt.subplots_adjust(bottom=0.42, left=0.15, right=0.9, top=0.9)
 
   # Save the grafic in buffer
@@ -61,10 +84,32 @@ def sendInfoBoyBiodiversity():
   # plt.yticks(fontsize=12, rotation=90)
   # plt.xticks(totalEspecies.label) 
 
-  ax.bar(top_values['label'], top_values['especies_region_total'], color='g', edgecolor='black', alpha=0.6, width=.8)
+  bars = ax.bar(top_values['label'], top_values['especies_region_total'], color='limegreen', edgecolor='seagreen', alpha=0.6, width=.8)
   ax.set_title('TOTAL ESPECIFES OBSERVADAS POR MUNICIPIO', fontsize=16)
   ax.set_xlabel('MUNICIPIOS', fontsize=12)
   ax.set_ylabel('TOTAL ESPECIES', fontsize=12)
+
+  # Add background color 
+  ax.set_facecolor('honeydew')
+
+  # Add height data to bars
+  for bar in bars:
+    ax.text(
+        bar.get_x() + bar.get_width() / 2,
+        bar.get_height(),
+        f'{bar.get_height():.0f}',
+        ha='center',
+        va='bottom',
+        rotation=45,
+        fontsize=6,
+        color='darkslategrey'
+    )
+  # Add padding between maximum value and edge graph
+  max_val = top_values['especies_region_total'].max()
+  ax.set_ylim(0, max_val * 1.2)
+
+  # Add a grid background
+  ax.grid(axis='y', linestyle='--', alpha=0.7)
 
   plt.yticks(fontsize=8)
   plt.xticks(fontsize=8, rotation=90)
