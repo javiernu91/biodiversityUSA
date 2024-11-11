@@ -334,7 +334,8 @@ header {
 
 /*Graphics*/
 
-.boyaca__graphyc {
+.boyaca__graphyc,
+.cund__graphyc {
   max-width: 100%;
   border-radius: 8px;
 }

@@ -23,11 +23,16 @@ def sendInfoCundBiodiversity():
   # plt.xlabel('MUNICIPIOS', fontsize=14)
   # plt.ylabel('TOTAL ESPECIES', fontsize=14)
 
-  ax.bar(top_values['label'], top_values['count'], color='g')
-  ax.set_title('TOTAL ESPECIFES OBSERVADAS POR MUNICIPIO', fontsize=18)
-  ax.set_xlabel('MUNICIPIOS', fontsize=14)
-  ax.set_ylabel('TOTAL ESPECIES', fontsize=14)
-  plt.yticks(fontsize=12)
+  ax.bar(top_values['label'], top_values['count'], color='g', edgecolor='black', alpha=0.6, width=.8)
+  ax.set_title('TOTAL ESPECIFES OBSERVADAS POR MUNICIPIO', fontsize=16)
+  ax.set_xlabel('MUNICIPIOS', fontsize=12)
+  ax.set_ylabel('TOTAL ESPECIES', fontsize=12)
+
+  plt.yticks(fontsize=8)
+  plt.xticks(fontsize=8, rotation=90)
+
+     # Adjust margins around the chart
+  plt.subplots_adjust(bottom=0.42, left=0.15, right=0.9, top=0.9)
 
   # Save the grafic in buffer
   buf = io.BytesIO()
@@ -56,13 +61,16 @@ def sendInfoBoyBiodiversity():
   # plt.yticks(fontsize=12, rotation=90)
   # plt.xticks(totalEspecies.label) 
 
-  ax.bar(top_values['label'], top_values['especies_region_total'], color='g')
-  ax.set_title('TOTAL ESPECIFES OBSERVADAS POR MUNICIPIO', fontsize=18)
-  ax.set_xlabel('MUNICIPIOS', fontsize=14)
-  ax.set_ylabel('TOTAL ESPECIES', fontsize=14)
-  plt.yticks(fontsize=12)
+  ax.bar(top_values['label'], top_values['especies_region_total'], color='g', edgecolor='black', alpha=0.6, width=.8)
+  ax.set_title('TOTAL ESPECIFES OBSERVADAS POR MUNICIPIO', fontsize=16)
+  ax.set_xlabel('MUNICIPIOS', fontsize=12)
+  ax.set_ylabel('TOTAL ESPECIES', fontsize=12)
 
+  plt.yticks(fontsize=8)
+  plt.xticks(fontsize=8, rotation=90)
 
+   # Adjust margins around the chart
+  plt.subplots_adjust(bottom=0.38, left=0.15, right=0.9, top=0.9)
 
   buf = io.BytesIO()
   plt.savefig(buf, format="png")
